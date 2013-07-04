@@ -12,6 +12,17 @@ paths = c("open|action1|action2|action3|action4|exit",
           "open|action1|action2|action1|exit")
 g = graphpipe(paths)
 graphplot(g)
+
+```
+`graphplot` can accept some simple arguments to filter and style the resulting graph
+
+```
+graphplot(min_edge_weight = 2, # number of links necessary to include an edge
+          edge_size = 20, # scale the edges
+          vertex_size=20, # scale verticies
+          arrow_width = 0.5, # scale arrow width
+          arrow_size = 0.25 # scale arrow size
+          )
 ```
 ## INSTALLATION
 ```
