@@ -20,7 +20,7 @@
 
 ```
 
-When tracking activity through a website, an easy way to capture the path of that activity is by recording every action and separating the list of all actions with pipes (`|`):
+When tracking user activity through a website, an easy way to capture the path of an individual's activity is by recording the order of every action and separating the list of all actions with pipes (`|`):
 ```
 open|action1|action2|action3|action4|exit
 ```
