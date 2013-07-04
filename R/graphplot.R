@@ -17,10 +17,10 @@ library("igraph")
 
 graphplot <- function(g,
                        min_edge_weight = 0,
-                       edge_size = 5,
+                       edge_size = 10,
                        vertex_size=20,
-                       arrow_width = 0.8,
-                       arrow_size = 0.6
+                       arrow_width = 1,
+                       arrow_size = 0.8
                        ) {
   g <- delete.edges(g, which(E(g)$Weight <= min_edge_weight))
   layout <- layout.circle(g)
