@@ -24,7 +24,7 @@ When tracking user activity through a website, an easy way to capture the path o
 ```
 open|action1|action2|action3|action4|exit
 ```
-Given lists of these pipe-delimited action paths, `graphpipe` will split these apart and create an aggregate of all possible paths, represented as an `R` `igraph` object:
+Given a list of these pipe-delimited action paths for each user, `graphpipe` will split these paths apart and create an aggregate of all possible paths, represented as an `R` `igraph` object:
 ```
 paths = c("open|action1|action2|action3|action4|exit",
           "open|action1|exit",
