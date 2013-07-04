@@ -1,4 +1,4 @@
-# graphipe
+# graphpipe
 ```
                                  ,-.
                                 ( o )_, ,-.
