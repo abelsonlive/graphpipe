@@ -1,0 +1,15 @@
+Package: graphpipe
+Maintainer: Brian Abelson <brianabelson@gmail.com>
+Author: Brian Abelson <brianabelson@gmail.com>
+Version: 1.0
+License: MIT
+Title: graphpipe
+Description: convert pipe-delimited paths to graphs
+Depends:
+    R (>= 2.15.1),
+    plyr,
+    stringr,
+    igraph
+Collate:
+    'graphpipe.R'
+    'graphplot.R'
