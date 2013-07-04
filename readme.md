@@ -1,5 +1,25 @@
 GraphPipe
 ==========
+```
+                                 ,-.
+                                ( o )_, ,-.
+                                 `-`./\( o )
+                                    /`.\/-'
+        ,--.                        \=+'  ,--.
+       /  /|                         O   /  /|
+      /  / |                            /  / |
+     ,--:  \                           .--:  |
+     |  | ,-:                          |  |  |
+     |  |( o-);-.                      |  |  |
+     |  \ `-'/\_ \_O                 ,'/  |  |
+     |   \  '\-\`--'__          __,-' /   |  |
+     |    `.( o')     ``------''    ,'    |  |
+     |      `:-'                  ,'      |  |
+     |        `-.__          __,-'        | /
+     |             ``------''             |/
+     `------------------------------------'
+
+```
 
 When tracking activity through a website, an easy way to capture the path of that activity is by recording every action and separating the list of all actions with pipes (`|`):
 ```
