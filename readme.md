@@ -43,6 +43,8 @@ graphplot(min_edge_weight = 2, # number of links necessary to include an edge
           arrow_size = 0.25 # scale arrow size
           )
 ```
+## Example:
+![Example](example.png)
 ## INSTALLATION
 ```
 library("devtools")
