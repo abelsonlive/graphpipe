@@ -36,7 +36,8 @@ graphplot(g)
 `graphplot` can accept some simple arguments to filter and style the resulting graph
 
 ```
-graphplot(min_edge_weight = 2, # necessary number of links between nodes for inclusion
+graphplot(g,
+          min_edge_weight = 2, # necessary number of links between nodes for inclusion
           edge_size = 20, # scale the edges
           vertex_size = 20, # scale verticies
           arrow_width = 0.5, # scale arrow width
